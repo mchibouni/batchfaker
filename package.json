@@ -1,0 +1,18 @@
+{
+  "name": "mchfaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "faker.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-rate-limit": "^2.4.0",
+    "express-rate-limiter": "^1.3.1",
+    "faker": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
