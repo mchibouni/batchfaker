@@ -2,8 +2,6 @@ var faker = require('faker');
 var express = require('express')
 var app = express();
 
-app.use(limiter);
-*/
 app.get('/products', function(req, res) {
 
 	var size = req.query.size || 10;
