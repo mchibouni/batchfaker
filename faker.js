@@ -21,6 +21,7 @@ app.get('/products', function(req, res) {
 			category: faker.commerce.department(),
 			productName: faker.commerce.productName(),
 			price: faker.commerce.price(),
+			description : faker.company.catchPhrase(),
 			tag: faker.commerce.productAdjective(),
 			productMaterial: faker.commerce.productMaterial(),
 			imageUrl: faker.image.technics(),
